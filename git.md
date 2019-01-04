@@ -5,6 +5,11 @@
 git branch -m new-name
 git branch -m old-name new-name
 ```
+## Delete local branch
+```
+git branch -d branch_name
+git branch -D branch_name
+```
 ## Delete the old-name remote branch and push the new-name local branch.
 ```
 git push origin :old-name new-name
