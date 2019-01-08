@@ -1,15 +1,15 @@
 # Git
 
-- [Branches](##Branches)
-  * [List all Branches](###List%20all%20Branches)
-  * [Rename your local branch](###Rename%20your%20local%20branch)
-  * [Delete local branch](###Delete%20local%20branch)
-  * [Delete the old-name remote branch and push the new-name local branch](###Delete%20the%20old-name%20remote%20branch%20and%20push%20the%20new-name%20local%20branch)
-  * [Reset the upstream branch for the new-name local branch](###Reset%20the%20upstream%20branch%20for%20the%20new-name%20local%20branch)
-- [Commits and Manipulating](##Commits%20and%20Manipulating)
-  * [fixup and autosquash](###fixup%20and%20autosquash)
-  * [Rebase commands](###Rebase%20commands)
-  * [Splitting a Commit](###Splitting%20a%20Commit)
+- [Branches](#Branches)
+  * [List all Branches](#List-all-Branches)
+  * [Rename your local branch](#Rename-your-local-branch)
+  * [Delete local branch](#Delete-local-branch)
+  * [Delete the old-name remote branch and push the new-name local branch](#Delete-the-old-name-remote-branch-and-push-the-new-name-local-branch)
+  * [Reset the upstream branch for the new-name local branch](#Reset-the-upstream-branch-for-the-new-name-local-branch)
+- [Commits and Manipulating](#Commits-and-Manipulating)
+  * [fixup and autosquash](#fixup-and-autosquash)
+  * [Rebase commands](#Rebase-commands)
+  * [Splitting a Commit](#Splitting-a-Commit)
   
 ## Branches
 ### List all Branches
