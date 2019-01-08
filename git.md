@@ -1,11 +1,22 @@
 # Git
 
+- [Branches](#Branches)
+  * [List all Branches](#List all Branches)
+  * [Rename your local branch](#Rename your local branch)
+  * [Delete local branch](#Delete local branch)
+  * [Delete the old-name remote branch and push the new-name local branch](#Delete the old-name remote branch and push the new-name local branch)
+  * [Reset the upstream branch for the new-name local branch](#Reset the upstream branch for the new-name local branch)
+- [Commits and Manipulating](#Commits and Manipulating)
+  * [fixup and autosquash](#fixup and autosquash)
+  * [Rebase commands](#Rebase commands)
+  * [Splitting a Commit](#Splitting a Commit)
+  
 ## Branches
 ### List all Branches
 ```
 git branch -a
 ```
-### Rename your local branch.
+### Rename your local branch
 ```
 git branch -m new-name
 git branch -m old-name new-name
@@ -15,11 +26,11 @@ git branch -m old-name new-name
 git branch -d branch_name
 git branch -D branch_name
 ```
-### Delete the old-name remote branch and push the new-name local branch.
+### Delete the old-name remote branch and push the new-name local branch
 ```
 git push origin :old-name new-name
 ```
-### Reset the upstream branch for the new-name local branch.
+### Reset the upstream branch for the new-name local branch
 ```
 git push origin -u new-name
 ```
