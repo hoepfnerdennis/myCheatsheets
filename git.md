@@ -56,10 +56,16 @@ edit 310154e updated README formatting and added blame
 pick a5f4a0d added cat-file
 ```
 ```
-$ git reset HEAD^
+$ git reset HEAD~
+```
+Commit the pieces individually in the usual way, producing as many commits as you need
+```
 $ git add README
 $ git commit -m 'updated README formatting'
 $ git add lib/simplegit.rb
 $ git commit -m 'added blame'
+```
+then continue rebase
+```
 $ git rebase --continue
 ```
